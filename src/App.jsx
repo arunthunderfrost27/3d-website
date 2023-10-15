@@ -1,9 +1,13 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Feedbacks,Contact, Hero, Navbar, Works } from "./components";
-import Clients from "./components/Clients.jsx";
-import Footer from "./components/footer/Footer";
-import FooterBottom from "./components/footer/FooterBottom";
 import Web3d from "./Components/web3d";
+import About from "./components/About.jsx";
+import Feedbacks from "./Components/Feedbacks.jsx";
+import Works from "./Components/Works.jsx";
+import Navbar from "./Components/Navbar.jsx";
+import Hero from "./Components/Hero.jsx";
+import Contact from "./Components/Contact.jsx";
+import Clients from "./components/Clients";
+import FooterBottom from "./components/footer/FooterBottom";
 
 
 
@@ -15,7 +19,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <About />
+        <About />  
         <Works />
         <Clients/>
         <Feedbacks />
