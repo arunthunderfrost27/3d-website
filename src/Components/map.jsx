@@ -1,5 +1,5 @@
-import React from 'react'
-import { Html } from '@react-three/drei'
+import React from 'react';
+import { Html } from '@react-three/drei';
 const Map = () => {
   return (
         <Html

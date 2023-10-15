@@ -1,11 +1,9 @@
-import abstract from '../assets/abstract1.mp4'
+
 
 const Hero = (source_code_link) => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
-              <div className="overlay">
-        <video src={abstract} autoPlay loop muted  />
-      </div>
+              
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto sm:px-16 px-6 flex flex-row items-start gap-5`}
       >
