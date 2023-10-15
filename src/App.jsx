@@ -1,6 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
 import Web3d from "./Components/web3d";
-import About from "./components/About.jsx";
 import Feedbacks from "./Components/Feedbacks.jsx";
 import Works from "./Components/Works.jsx";
 import Navbar from "./Components/Navbar.jsx";
@@ -8,6 +7,7 @@ import Hero from "./Components/Hero.jsx";
 import Contact from "./Components/Contact.jsx";
 import Clients from "./components/Clients";
 import FooterBottom from "./components/footer/FooterBottom";
+import About from "./Components/About";
 
 
 
