@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[150px] w-full green-pink-gradient p-[1px] rounded-[40px] shadow-card'>
@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
-const Client = () => {
+const Clients = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -45,4 +45,4 @@ const Client = () => {
   );
 };
 
-export default SectionWrapper(Client, "client");
+export default SectionWrapper(Clients, "client");

@@ -5,6 +5,9 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
