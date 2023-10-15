@@ -1,7 +1,8 @@
   import React, { useEffect, useState } from "react";
   import { Link } from "react-router-dom";
   import { navLinks } from "../constants";
-  import { menu, close } from "../assets/index";
+  import menu from "../assets/menu.svg";
+  import close from "../assets/close.svg";
   import logo from "../assets/logo1.png";
   import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
