@@ -1,8 +1,8 @@
   import React, { useEffect, useState } from "react";
   import { Link } from "react-router-dom";
   import { navLinks } from "../constants";
-  import menu from "../assets";
-  import close from "../assets";
+  import menu from "../assets/index";
+  import close from "../assets/index";
   import logo from "../assets/logo1.png";
   import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
